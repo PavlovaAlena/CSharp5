@@ -47,7 +47,7 @@ string[]? dipArr= Console.ReadLine().Split(' ');
 int arrL = int.Parse(dipArr[0]);
 int arrR = int.Parse(dipArr[1]);
 
-int[] array = FillArrayWithRandomNumbers(arrLen+1, arrL, arrR);
+int[] array = FillArrayWithRandomNumbers(arrLen, arrL, arrR);
 
 Console.Write("Введите диапазон отрезка для поиска чисел через пробел ");
 string[]? dipSegment= Console.ReadLine().Split(' ');
