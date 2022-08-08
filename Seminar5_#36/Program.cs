@@ -1,4 +1,4 @@
-﻿// Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
+﻿// Задача 36. Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
 
 //************************
 int[] FillArrayWithRandomNumbers(int size, int leftRange, int rightRange)
@@ -16,7 +16,7 @@ int[] FillArrayWithRandomNumbers(int size, int leftRange, int rightRange)
 int ArraySearch(int[] arr)
 {
     int sum = 0;
-    for (int i = 1; i < arr.Length; i+=2)
+    for (int i = 1; i < arr.Length; i += 2)
     {
         sum = sum + arr[i];
     }
@@ -31,13 +31,13 @@ Console.Write("Введите желаемую размерность масси
 int arrLen = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите диапазон чисел для заполнения массива через пробел ");
-string[]? dipArr= Console.ReadLine().Split(' ');
+string[]? dipArr = Console.ReadLine().Split(' ');
 int arrL = int.Parse(dipArr[0]);
 int arrR = int.Parse(dipArr[1]);
 
+//int[] array = FillArrayWithRandomNumbers(7, -100, 100);
 int[] array = FillArrayWithRandomNumbers(arrLen, arrL, arrR);
 
-//int[] array = FillArrayWithRandomNumbers(7, -100, 100);
 int summma = ArraySearch(array);
 
 Console.WriteLine("В массиве " + '[' + string.Join(", ", array) + ']' + " сумма элементов, стоящих на нечётных позициях = " + summma);
