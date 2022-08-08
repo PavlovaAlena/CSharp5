@@ -37,4 +37,4 @@ int arrLen = Convert.ToInt32(Console.ReadLine());
 int[] array = FillArrayWithRandomNumbers(arrLen, 100, 1000);
 int count = EvenNumberArray(array);
 
-Console.WriteLine("В массисве " + '[' + string.Join(", ", array) + ']' + " количество чётных чисел = " + count);
+Console.WriteLine("В массиве " + '[' + string.Join(", ", array) + ']' + " количество чётных чисел = " + count);

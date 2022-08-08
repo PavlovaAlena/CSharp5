@@ -33,7 +33,7 @@ Console.WriteLine("");
 int[] array = FillArrayWithRandomNumbers(123, 0, 150);
 int count = ArraySearch(array, 10, 99);
 
-Console.WriteLine("В массисве " + '[' + string.Join(", ", array) + ']' + " количество элементов массива, значения которых лежат в отрезке [10,99] = " + count);
+Console.WriteLine("В массиве " + '[' + string.Join(", ", array) + ']' + " количество элементов массива, значения которых лежат в отрезке [10,99] = " + count);
 
 /* //******2й вариант с выбором размерности, диапазона массива и отрезка для поиска******************
 Console.Write("Программа задает массив из случайных чисел и находит количество элементов массива, значения которых лежат в отрезке [х,у]");
@@ -56,4 +56,4 @@ int arrY = int.Parse(dipSegment[1]);
 
 int count = ArraySearch(array, arrX, arrY);
 
-Console.WriteLine("В массисве " + '[' + string.Join(", ", array) + ']' + " количество элементов массива, значения которых лежат в отрезке [" + arrX + "," + arrY + "] = " + count); */
+Console.WriteLine("В массиве " + '[' + string.Join(", ", array) + ']' + " количество элементов массива, значения которых лежат в отрезке [" + arrX + "," + arrY + "] = " + count); */

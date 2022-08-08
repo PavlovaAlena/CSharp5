@@ -40,4 +40,4 @@ int[] array = FillArrayWithRandomNumbers(arrLen, arrL, arrR);
 //int[] array = FillArrayWithRandomNumbers(7, -100, 100);
 int summma = ArraySearch(array);
 
-Console.WriteLine("В массисве " + '[' + string.Join(", ", array) + ']' + " сумма элементов, стоящих на нечётных позициях = " + summma);
+Console.WriteLine("В массиве " + '[' + string.Join(", ", array) + ']' + " сумма элементов, стоящих на нечётных позициях = " + summma);
